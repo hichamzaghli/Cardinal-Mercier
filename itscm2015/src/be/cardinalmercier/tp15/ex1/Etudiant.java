@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Etudiant {
 private String nom;
 private static int dernierNumAttribue = 0;
-private int num;
+private int  num;
 private ArrayList<Integer> listePoints = new ArrayList<Integer>();
 public static ArrayList<Etudiant> listeEtu = new ArrayList<Etudiant>();
 public Etudiant(String nom){
